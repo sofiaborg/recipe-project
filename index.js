@@ -32,5 +32,5 @@ app.engine(
 
 /////port///////
 app.listen(8000, () => {
-  console.log("listening");
+  console.log("listening http://localhost:8000");
 });
