@@ -29,8 +29,10 @@ app.engine(
     extname: ".hbs",
   })
 );
-
+app.get('/', (req,res) =>{
+  res.render('home')
+})
 /////port///////
 app.listen(8000, () => {
-  console.log("listening");
+  console.log("listening to http://localhost:8000");
 });
